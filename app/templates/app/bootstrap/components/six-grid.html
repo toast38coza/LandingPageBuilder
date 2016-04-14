@@ -1,0 +1,18 @@
+{% load md2 %}
+{% comment %}
+- name: six-grid
+  content: 
+  - title: Some title
+	content: |
+	  Donec id elit non mi porta gravida at eget metus. 
+	  Maecenas faucibus mollis interdum.
+	    ..
+{% endcomment %}
+<div class="row marketing">
+	{% for block in component.content %}
+    <div class="col-lg-4">
+      <h4>{{block.title}}</h4>
+      <p>{{block.content|markdown}}</p>
+    </div>
+    {% endfor %}
+</div>

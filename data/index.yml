@@ -1,0 +1,39 @@
+page:
+  meta:
+    title: Hello
+  jumbo: 
+    title: Jumbotron heading
+    content: |
+      Cras justo odio, dapibus ac facilisis in, 
+      egestas eget quam. Fusce dapibus, 
+      tellus ac cursus commodo, 
+      tortor mauris condimentum nibh, 
+      ut fermentum massa justo sit amet risus.
+
+  components:
+    - name: six-grid
+      content: 
+        - title: Some title
+          content: |
+            Donec id elit non mi porta gravida at eget metus. 
+            Maecenas faucibus mollis interdum.
+        - title: Some title
+          content: |
+            Donec id elit non mi porta gravida at eget metus. 
+            Maecenas faucibus mollis interdum.
+        - title: Some title
+          content: |
+            Donec id elit non mi porta gravida at eget metus. 
+            Maecenas faucibus mollis interdum.
+        - title: Some title
+          content: |
+            Donec id elit non mi porta gravida at eget metus. 
+            Maecenas faucibus mollis interdum.
+        - title: Some title
+          content: |
+            Donec id elit non mi porta gravida at eget metus. 
+            Maecenas faucibus mollis interdum.
+        - title: Some title
+          content: |
+            Donec id elit non mi porta gravida at eget metus. 
+            Maecenas faucibus mollis interdum.

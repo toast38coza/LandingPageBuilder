@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  web:
+    restart: on-failure:10
+    build: .
+    command: gunicorn lpbuilder.wsgi:application -b :8000 --reload
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
